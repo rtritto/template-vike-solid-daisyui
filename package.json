@@ -1,7 +1,6 @@
 {
   "name": "template-vite-solid-daisyui",
   "version": "1.0.0",
-  "exports": "./src/index.ts",
   "license": "MIT",
   "type": "module",
   "packageManager": "yarn@4.4.1",
