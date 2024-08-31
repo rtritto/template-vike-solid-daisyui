@@ -10,4 +10,4 @@ export default {
     themes: ['dark']
   },
   plugins: [daisyui]
-} as Config
+} satisfies Config
