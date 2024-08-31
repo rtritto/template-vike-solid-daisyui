@@ -51,6 +51,12 @@ rules:
   unicorn/prevent-abbreviations: 0
   #endregion
 
+  #region tailwindcss
+  tailwindcss/no-custom-classname: [1, {
+    whitelist: ['is-active']
+  }]
+  #endregion
+
 settings:
   import/parsers:
     '@typescript-eslint/parser':

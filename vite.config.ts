@@ -1,14 +1,20 @@
-import { defineConfig } from 'vite'
-import solidPlugin from 'vite-plugin-solid'
+import vikeSolid from 'vike-solid/vite'
+import vike from 'vike/plugin'
+import type { UserConfig } from 'vite'
 import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
+import { resolve } from 'node:path'
 
-export default defineConfig({
+export default {
   cacheDir: '.vite',
   plugins: [
-    solidPlugin()
+    vike(),
+    vikeSolid()
   ],
   server: {
+    port: 3000
+  },
+  preview: {
     port: 3000
   },
   build: {
@@ -22,5 +28,10 @@ export default defineConfig({
         autoprefixer
       ]
     }
+  },
+  resolve: {
+    alias: {
+      '@': resolve(import.meta.dirname, 'src')
+    }
   }
-})
+} satisfies UserConfig
