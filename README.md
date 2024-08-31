@@ -13,14 +13,16 @@ Template stack:
 - **TypeScript**
 
 ## Clone
-`git clone https://github.com/rtritto/template-vite-solid-daisyui.git`
+```sh
+git clone https://github.com/rtritto/template-vike-solid-daisyui.git
+```
 
 ## Install
-`yarn`
+```sh
+yarn
+```
 
 ## Start
-`yarn start`
-
-OR
-
-`yarn dev`
+```sh
+yarn dev
+```
