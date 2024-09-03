@@ -9,14 +9,14 @@ const getData = async () => {
 
 export type Data = {
   name: string,
-  porducts: Awaited<ReturnType<typeof getData>>
+  datas: Awaited<ReturnType<typeof getData>>
 }
 
 export const data: DataAsync<Data> = async (pageContext) => {
   const { name } = pageContext.routeParams
-  const porducts = await getData()
+  const datas = await getData()
   return {
     name,
-    porducts
+    datas
   }
 }
