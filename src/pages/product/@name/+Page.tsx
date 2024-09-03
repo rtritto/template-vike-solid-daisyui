@@ -8,7 +8,7 @@ export const Page = (_pageContext: PageContext) => {
       {/* <div>Item name: {name}</div> */}
       <br />
       <List />
-      <a href={`/item/A`}>Lint to item A</a>
+      {/* <a href={`/item/A`}>Lint to item A</a> */}
     </>
   )
 }
