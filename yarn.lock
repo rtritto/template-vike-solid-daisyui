@@ -3544,6 +3544,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"isbot-fast@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "isbot-fast@npm:1.2.0"
+  checksum: 10c0/192a778ee5261c5555290472b154cfa8fee1b9bd8fbaa46c4632590d01fe21f8c04b412fceb42bf0c505021538c560758385542875888aaa46c41b229e786226
+  languageName: node
+  linkType: hard
+
 "isexe@npm:^2.0.0":
   version: 2.0.0
   resolution: "isexe@npm:2.0.0"
@@ -5225,7 +5232,7 @@ __metadata:
     tailwindcss: "npm:^3.4.10"
     typescript: "npm:^5.6.2"
     vike: "npm:^0.4.195"
-    vike-solid: "npm:^0.7.4"
+    vike-solid: "npm:^0.7.5"
     vite: "npm:^5.4.3"
   languageName: unknown
   linkType: soft
@@ -5527,16 +5534,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vike-solid@npm:^0.7.4":
-  version: 0.7.4
-  resolution: "vike-solid@npm:0.7.4"
+"vike-solid@npm:^0.7.5":
+  version: 0.7.5
+  resolution: "vike-solid@npm:0.7.5"
   dependencies:
+    isbot-fast: "npm:^1.2.0"
     vite-plugin-solid: "npm:^2.10.2"
   peerDependencies:
     solid-js: ^1.8.7
-    vike: ">=0.4.191"
+    vike: ">=0.4.195"
     vite: ">=5.0.0"
-  checksum: 10c0/8f2ba67dd2d90403bedf6345990696b888635034e555e81d1aff78d9e8554386b21ac825352534d617e9312da4226f8c1290ef9215889867f63d79d1585b11f8
+  checksum: 10c0/b287dc4f3386590f503ff2dfaf15a0c0d7559ed25015b9fafb17e4f988efe0678f5981255dd1f9df2a154baf6cf5266246a1692e2d6139298c1007ae7b8f3d22
   languageName: node
   linkType: hard
 
