@@ -6,6 +6,7 @@
   "packageManager": "yarn@4.5.0",
   "scripts": {
     "dev": "vite dev",
+    "dev:debug": "DEBUG=vike:error vite dev",
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint .",
