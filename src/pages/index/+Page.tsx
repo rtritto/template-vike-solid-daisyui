@@ -1,11 +1,18 @@
-function Page() {
+import { Counter } from './Counter'
+import { Movies } from './Movies'
+
+export function Page() {
   return (
     <>
-      <h1>My Vike + Solid App</h1>
+      <h1>My Vike + React app</h1>
       This page is:
-      <input type="checkbox" checked class="checkbox" />
+      <ul>
+        <li>Rendered to HTML.</li>
+        <li>
+          Interactive while loading. <Counter />
+        </li>
+      </ul>
+      <Movies />
     </>
   )
 }
-
-export { Page }

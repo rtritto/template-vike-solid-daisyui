@@ -942,6 +942,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.56.2":
+  version: 5.56.2
+  resolution: "@tanstack/query-core@npm:5.56.2"
+  checksum: 10c0/54ff55f02b01f6ba089f4965bfd46f430c18ce7e11d874de04c4d58cc8f698598b41e1c017ba029d08ae75e321e546b26f1ea7f788474db265eeba46e780f2f6
+  languageName: node
+  linkType: hard
+
+"@tanstack/solid-query@npm:^5.56.2":
+  version: 5.56.2
+  resolution: "@tanstack/solid-query@npm:5.56.2"
+  dependencies:
+    "@tanstack/query-core": "npm:5.56.2"
+  peerDependencies:
+    solid-js: ^1.6.0
+  checksum: 10c0/7e7667b1c4ca69146c8aa593aa1351a0f93744717e07745b706526f2e3a5aff8fc5fb8933e5963cf05fc9c47efc4c4577a5a31e7713615a59e0dd62f495c2e64
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.20.4":
   version: 7.20.5
   resolution: "@types/babel__core@npm:7.20.5"
@@ -5214,6 +5232,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "template-vike-solid-daisyui@workspace:."
   dependencies:
+    "@tanstack/solid-query": "npm:^5.56.2"
     "@types/eslint": "npm:^9"
     "@types/node": "npm:^22.5.5"
     "@typescript-eslint/eslint-plugin": "npm:^8.6.0"
@@ -5233,6 +5252,7 @@ __metadata:
     typescript: "npm:5.5.4"
     vike: "npm:^0.4.195"
     vike-solid: "npm:^0.7.5"
+    vike-solid-query: "npm:^0.0.1"
     vite: "npm:^5.4.5"
   languageName: unknown
   linkType: soft
@@ -5551,6 +5571,17 @@ __metadata:
     spdx-correct: "npm:^3.0.0"
     spdx-expression-parse: "npm:^3.0.0"
   checksum: 10c0/7b91e455a8de9a0beaa9fe961e536b677da7f48c9a493edf4d4d4a87fd80a7a10267d438723364e432c2fcd00b5650b5378275cded362383ef570276e6312f4f
+  languageName: node
+  linkType: hard
+
+"vike-solid-query@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "vike-solid-query@npm:0.0.1"
+  peerDependencies:
+    "@tanstack/solid-query": ">=5.0.0"
+    solid-js: ^1.8.7
+    vike-solid: ">=0.7.3"
+  checksum: 10c0/bb3c50b022933d845096619351b659544eb8fa79fd8b905a0363228f32d9bf2362bf82332f488b12dfcb91b5ede3f04dbfb164aa0238cf916eab3b10aa32d6bb
   languageName: node
   linkType: hard
 

@@ -1,4 +1,5 @@
-import { config as vikeSolid } from 'vike-solid/config'
+import vikeSolid from 'vike-solid/config'
+import vikeSolidQuery from 'vike-solid-query/config'
 import type { Config } from 'vike/types'
 
 // Default config (can be overridden by pages)
@@ -8,5 +9,8 @@ export default {
   bodyAttributes: {
     class: 'dark'
   },
-  extends: vikeSolid
+  extends: [
+    vikeSolid,
+    vikeSolidQuery
+  ]
 } satisfies Config

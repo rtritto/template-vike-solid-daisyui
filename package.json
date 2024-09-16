@@ -12,7 +12,9 @@
     "od": "yarn outdated"
   },
   "dependencies": {
-    "solid-js": "^1.8.22"
+    "@tanstack/solid-query": "^5.56.2",
+    "solid-js": "^1.8.22",
+    "vike-solid-query": "^0.0.1"
   },
   "devDependencies": {
     "@types/eslint": "^9",
