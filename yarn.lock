@@ -262,10 +262,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brillout/picocolors@npm:^1.0.14":
-  version: 1.0.14
-  resolution: "@brillout/picocolors@npm:1.0.14"
-  checksum: 10c0/01255d47748783f4f90e6fad461130135375c91200aad8acd82e97098250c5672509caf872b8512be46ce5bda6cfc83ac024540907f9cee92e52edfd9eea869c
+"@brillout/picocolors@npm:^1.0.15":
+  version: 1.0.15
+  resolution: "@brillout/picocolors@npm:1.0.15"
+  checksum: 10c0/9d122076579f516fcd8fe80470961f19018c6a8f8f6fd628a476557ab2f85cd02ddb122728b4baeac0988ed292cb29ea7d07137e30708e6294a850cd62cb54b4
   languageName: node
   linkType: hard
 
@@ -5231,7 +5231,7 @@ __metadata:
     solid-js: "npm:^1.8.22"
     tailwindcss: "npm:^3.4.12"
     typescript: "npm:5.5.4"
-    vike: "npm:^0.4.195"
+    vike: "npm:^0.4.196"
     vike-solid: "npm:^0.7.5"
     vite: "npm:^5.4.6"
   languageName: unknown
@@ -5568,13 +5568,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vike@npm:^0.4.195":
-  version: 0.4.195
-  resolution: "vike@npm:0.4.195"
+"vike@npm:^0.4.196":
+  version: 0.4.196
+  resolution: "vike@npm:0.4.196"
   dependencies:
     "@brillout/import": "npm:^0.2.3"
     "@brillout/json-serializer": "npm:^0.5.13"
-    "@brillout/picocolors": "npm:^1.0.14"
+    "@brillout/picocolors": "npm:^1.0.15"
     "@brillout/require-shim": "npm:^0.1.2"
     "@brillout/vite-plugin-server-entry": "npm:^0.4.11"
     acorn: "npm:^8.0.0"
@@ -5593,7 +5593,7 @@ __metadata:
       optional: true
   bin:
     vike: node/cli/bin-entry.js
-  checksum: 10c0/63a0e1493b18199dfd888337d5241a5bfca499dee09864931682fac8d05964ecd45e20e66c472f992bdc5491a5599c6a1efc9a4e2db9a7dbe0718c46b6353e4d
+  checksum: 10c0/da99e4481c74b7ee200967a8b36e86c68c8f4da9fa372d346b55d69d375d8179c23bf8ed45dcdc7bfdcae9e0847f31b9b22181744010bbebee4ec50455d4fc8d
   languageName: node
   linkType: hard
 
