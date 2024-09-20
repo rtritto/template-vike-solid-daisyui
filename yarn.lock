@@ -262,10 +262,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brillout/picocolors@npm:^1.0.14":
-  version: 1.0.14
-  resolution: "@brillout/picocolors@npm:1.0.14"
-  checksum: 10c0/01255d47748783f4f90e6fad461130135375c91200aad8acd82e97098250c5672509caf872b8512be46ce5bda6cfc83ac024540907f9cee92e52edfd9eea869c
+"@brillout/picocolors@npm:^1.0.15":
+  version: 1.0.15
+  resolution: "@brillout/picocolors@npm:1.0.15"
+  checksum: 10c0/9d122076579f516fcd8fe80470961f19018c6a8f8f6fd628a476557ab2f85cd02ddb122728b4baeac0988ed292cb29ea7d07137e30708e6294a850cd62cb54b4
   languageName: node
   linkType: hard
 
@@ -5174,9 +5174,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.4.11":
-  version: 3.4.11
-  resolution: "tailwindcss@npm:3.4.11"
+"tailwindcss@npm:^3.4.12":
+  version: 3.4.12
+  resolution: "tailwindcss@npm:3.4.12"
   dependencies:
     "@alloc/quick-lru": "npm:^5.2.0"
     arg: "npm:^5.0.2"
@@ -5203,7 +5203,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 10c0/b5bce27a6370e7a1c68a8c61db1e5379ccd14dcc5410149342f7742f45be0f2af72cbc0f3ac4e97535fc214d3f2546ade5edbb737f5b74d0a2431b8bb8e54b0d
+  checksum: 10c0/9ed1449d3b98ce54c6c3a6c3354121a14b39d8dba28815ea1b0fc5a0b32422a744545ba357690468912a1a781593bc7da3d4e56367abed284a300ae1fb0ab42b
   languageName: node
   linkType: hard
 
@@ -5248,12 +5248,12 @@ __metadata:
     eslint-plugin-unicorn: "npm:^55.0.0"
     postcss: "npm:^8.4.47"
     solid-js: "npm:^1.8.22"
-    tailwindcss: "npm:^3.4.11"
+    tailwindcss: "npm:^3.4.12"
     typescript: "npm:5.5.4"
-    vike: "npm:^0.4.195"
+    vike: "npm:^0.4.196"
     vike-solid: "npm:^0.7.5"
     vike-solid-query: "npm:^0.0.1"
-    vite: "npm:^5.4.5"
+    vite: "npm:^5.4.6"
   languageName: unknown
   linkType: soft
 
@@ -5599,13 +5599,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vike@npm:^0.4.195":
-  version: 0.4.195
-  resolution: "vike@npm:0.4.195"
+"vike@npm:^0.4.196":
+  version: 0.4.196
+  resolution: "vike@npm:0.4.196"
   dependencies:
     "@brillout/import": "npm:^0.2.3"
     "@brillout/json-serializer": "npm:^0.5.13"
-    "@brillout/picocolors": "npm:^1.0.14"
+    "@brillout/picocolors": "npm:^1.0.15"
     "@brillout/require-shim": "npm:^0.1.2"
     "@brillout/vite-plugin-server-entry": "npm:^0.4.11"
     acorn: "npm:^8.0.0"
@@ -5624,7 +5624,7 @@ __metadata:
       optional: true
   bin:
     vike: node/cli/bin-entry.js
-  checksum: 10c0/63a0e1493b18199dfd888337d5241a5bfca499dee09864931682fac8d05964ecd45e20e66c472f992bdc5491a5599c6a1efc9a4e2db9a7dbe0718c46b6353e4d
+  checksum: 10c0/da99e4481c74b7ee200967a8b36e86c68c8f4da9fa372d346b55d69d375d8179c23bf8ed45dcdc7bfdcae9e0847f31b9b22181744010bbebee4ec50455d4fc8d
   languageName: node
   linkType: hard
 
@@ -5649,9 +5649,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:*, vite@npm:^5.4.5":
-  version: 5.4.5
-  resolution: "vite@npm:5.4.5"
+"vite@npm:*, vite@npm:^5.4.6":
+  version: 5.4.6
+  resolution: "vite@npm:5.4.6"
   dependencies:
     esbuild: "npm:^0.21.3"
     fsevents: "npm:~2.3.3"
@@ -5688,7 +5688,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/89c6459452fc238cdf8e99681b30996af171c9c557af476f96408a18a639fb5a0a6ee2d2257e005b21dc284edceb604595c34920cd4a007ad18f7ebafb654c76
+  checksum: 10c0/5f87be3a10e970eaf9ac52dfab39cf9fff583036685252fb64570b6d7bfa749f6d221fb78058f5ef4b5664c180d45a8e7a7ff68d7f3770e69e24c7c68b958bde
   languageName: node
   linkType: hard
 
