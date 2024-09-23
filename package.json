@@ -12,13 +12,13 @@
     "od": "yarn outdated"
   },
   "dependencies": {
-    "solid-js": "^1.8.22"
+    "solid-js": "^1.8.23"
   },
   "devDependencies": {
     "@types/eslint": "^8.56.12",
-    "@types/node": "^22.5.5",
-    "@typescript-eslint/eslint-plugin": "^8.6.0",
-    "@typescript-eslint/parser": "^8.6.0",
+    "@types/node": "^22.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
     "@yarnpkg/sdks": "^3.2.0",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.10",
@@ -29,11 +29,11 @@
     "eslint-plugin-tailwindcss": "^3.17.4",
     "eslint-plugin-unicorn": "^55.0.0",
     "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.12",
+    "tailwindcss": "^3.4.13",
     "typescript": "5.5.4",
     "vike": "^0.4.196",
     "vike-solid": "^0.7.5",
-    "vite": "^5.4.6"
+    "vite": "^5.4.7"
   },
   "engines": {
     "node": ">=20 || >=22"
