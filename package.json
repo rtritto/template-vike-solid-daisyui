@@ -12,11 +12,11 @@
     "od": "yarn outdated"
   },
   "dependencies": {
-    "solid-js": "^1.8.23"
+    "solid-js": "^1.9.1"
   },
   "devDependencies": {
     "@types/eslint": "^8.56.12",
-    "@types/node": "^22.6.0",
+    "@types/node": "^22.7.1",
     "@typescript-eslint/eslint-plugin": "^8.7.0",
     "@typescript-eslint/parser": "^8.7.0",
     "@yarnpkg/sdks": "^3.2.0",
@@ -32,9 +32,9 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "typescript": "5.5.4",
-    "vike": "^0.4.196",
+    "vike": "^0.4.197",
     "vike-solid": "^0.7.5",
-    "vite": "^5.4.7"
+    "vite": "^5.4.8"
   },
   "engines": {
     "node": ">=20 || >=22"
