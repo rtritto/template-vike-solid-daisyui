@@ -1049,12 +1049,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^22.6.0":
-  version: 22.6.0
-  resolution: "@types/node@npm:22.6.0"
+"@types/node@npm:*, @types/node@npm:^22.7.1":
+  version: 22.7.1
+  resolution: "@types/node@npm:22.7.1"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/165fa685fbe51baf47948273487d1cf733a8802f0ddf3f07f357aec6d73012ff79be1982ba40ae6d30ac21ad0bebdbe373cf1cf8a307991130bc361a92d0c30b
+  checksum: 10c0/5647181455d543992f5e93165e7ad2ca0e97402e748a1209c07135320b6f220ffb5b2531b0412d6d33bb3173b5bcd9418899d9fa6f04596a5ec9f338b2f37992
   languageName: node
   linkType: hard
 
@@ -4964,14 +4964,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-js@npm:^1.8.23":
-  version: 1.8.23
-  resolution: "solid-js@npm:1.8.23"
+"solid-js@npm:^1.9.1":
+  version: 1.9.1
+  resolution: "solid-js@npm:1.9.1"
   dependencies:
     csstype: "npm:^3.1.0"
     seroval: "npm:^1.1.0"
     seroval-plugins: "npm:^1.1.0"
-  checksum: 10c0/d80ee915c911cffa7abe7ea93316ead211df547b06f7a45fd54f6256afe3c56688bd10af0d91b651e091d817e3277a6c567128993be809d65ab4598c45229cd3
+  checksum: 10c0/32209babd637980eae2be6163d788093e43a27b24b11fc590be69696c5ada7b0ec00904a998c09da991e22f116e36b2c2916ce2b0e1bd629cfdcb4d160dd1b77
   languageName: node
   linkType: hard
 
@@ -5277,7 +5277,7 @@ __metadata:
   resolution: "template-vike-solid-daisyui@workspace:."
   dependencies:
     "@types/eslint": "npm:^8.56.12"
-    "@types/node": "npm:^22.6.0"
+    "@types/node": "npm:^22.7.1"
     "@typescript-eslint/eslint-plugin": "npm:^8.7.0"
     "@typescript-eslint/parser": "npm:^8.7.0"
     "@yarnpkg/sdks": "npm:^3.2.0"
@@ -5291,12 +5291,12 @@ __metadata:
     eslint-plugin-tailwindcss: "npm:^3.17.4"
     eslint-plugin-unicorn: "npm:^55.0.0"
     postcss: "npm:^8.4.47"
-    solid-js: "npm:^1.8.23"
+    solid-js: "npm:^1.9.1"
     tailwindcss: "npm:^3.4.13"
     typescript: "npm:5.5.4"
-    vike: "npm:^0.4.196"
+    vike: "npm:^0.4.197"
     vike-solid: "npm:^0.7.5"
-    vite: "npm:^5.4.7"
+    vite: "npm:^5.4.8"
   languageName: unknown
   linkType: soft
 
@@ -5631,9 +5631,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vike@npm:^0.4.196":
-  version: 0.4.196
-  resolution: "vike@npm:0.4.196"
+"vike@npm:^0.4.197":
+  version: 0.4.197
+  resolution: "vike@npm:0.4.197"
   dependencies:
     "@brillout/import": "npm:^0.2.3"
     "@brillout/json-serializer": "npm:^0.5.13"
@@ -5656,7 +5656,7 @@ __metadata:
       optional: true
   bin:
     vike: node/cli/bin-entry.js
-  checksum: 10c0/da99e4481c74b7ee200967a8b36e86c68c8f4da9fa372d346b55d69d375d8179c23bf8ed45dcdc7bfdcae9e0847f31b9b22181744010bbebee4ec50455d4fc8d
+  checksum: 10c0/40b10eb2bd1f02b979cad53aec0beb39c58bbc56c299c52862d66f86cb60ba9ca1c218ade48afe39a6d674df11ce9a8432f510466a47ed586cf9256afd4cd262
   languageName: node
   linkType: hard
 
@@ -5681,9 +5681,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.4.7":
-  version: 5.4.7
-  resolution: "vite@npm:5.4.7"
+"vite@npm:^5.4.8":
+  version: 5.4.8
+  resolution: "vite@npm:5.4.8"
   dependencies:
     esbuild: "npm:^0.21.3"
     fsevents: "npm:~2.3.3"
@@ -5720,7 +5720,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/0ca7ca60f71c61f3855bbabf7e33909bec32933b35914d4d281813c728183e78e7ce5be05735a7671df3a994613d3881f520a32a80715faa92effb28deee9320
+  checksum: 10c0/af70af6d6316a3af71f44ebe3ab343bd66450d4157af73af3b32239e1b6ec43ff6f651d7cc4193b21ed3bff2e9356a3de9e96aee53857f39922e4a2d9fad75a1
   languageName: node
   linkType: hard
 
