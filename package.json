@@ -8,30 +8,25 @@
     "dev": "vite dev",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "eslint .",
+    "lint": "eslint src/**/*.{ts,tsx} *.ts",
     "od": "yarn outdated"
   },
   "dependencies": {
     "solid-js": "^1.9.1"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.12",
     "@types/node": "^22.7.4",
-    "@typescript-eslint/eslint-plugin": "^8.8.0",
-    "@typescript-eslint/parser": "^8.8.0",
     "@yarnpkg/sdks": "^3.2.0",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.10",
-    "eslint": "^8.57.1",
-    "eslint-import-resolver-node": "^0.3.9",
-    "eslint-import-resolver-typescript": "^3.6.3",
-    "eslint-plugin-import": "^2.30.0",
+    "eslint": "^9.12.0",
     "eslint-plugin-solid": "^0.14.3",
     "eslint-plugin-tailwindcss": "^3.17.4",
     "eslint-plugin-unicorn": "^55.0.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
     "typescript": "5.5.4",
+    "typescript-eslint": "^8.8.0",
     "vike": "^0.4.197",
     "vike-solid": "^0.7.6",
     "vite": "^5.4.8"
