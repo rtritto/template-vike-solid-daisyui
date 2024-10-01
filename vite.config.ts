@@ -3,7 +3,7 @@ import { plugin as vike } from 'vike/plugin'
 import type { UserConfig } from 'vite'
 import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
-import { resolve } from 'node:path'
+import path from 'node:path'
 
 export default {
   cacheDir: '.vite',
@@ -31,7 +31,7 @@ export default {
   },
   resolve: {
     alias: {
-      '@': resolve(import.meta.dirname, 'src')
+      '@': path.resolve(import.meta.dirname, 'src')
     }
   }
 } satisfies UserConfig
