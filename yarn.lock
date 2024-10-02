@@ -1873,15 +1873,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:^4.12.10":
-  version: 4.12.10
-  resolution: "daisyui@npm:4.12.10"
+"daisyui@npm:^4.12.11":
+  version: 4.12.11
+  resolution: "daisyui@npm:4.12.11"
   dependencies:
     css-selector-tokenizer: "npm:^0.8"
     culori: "npm:^3"
     picocolors: "npm:^1"
     postcss-js: "npm:^4"
-  checksum: 10c0/f677d9717d6241d6c829141645ff15a5d6aaa9e279a90e1acb248613c9cc25d7d0b9fcac55ec572537f6bc472e1ab5f0bed7797a1815b6fde9a644be62f357d0
+  checksum: 10c0/fe4292860f621222c71260b37f7a0b40d28e667a52d1816aeb45f409eeb6b6c1a4100cde98c58a8989a75a377a1532c99bf38c2c5f730fcfdb7b59f273046d3f
   languageName: node
   linkType: hard
 
@@ -4362,7 +4362,7 @@ __metadata:
     "@types/node": "npm:^22.7.4"
     "@yarnpkg/sdks": "npm:^3.2.0"
     autoprefixer: "npm:^10.4.20"
-    daisyui: "npm:^4.12.10"
+    daisyui: "npm:^4.12.11"
     eslint: "npm:^9.12.0"
     eslint-plugin-solid: "npm:^0.14.3"
     eslint-plugin-tailwindcss: "npm:^3.17.4"
