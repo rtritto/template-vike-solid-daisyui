@@ -12,10 +12,10 @@
     "od": "yarn outdated"
   },
   "dependencies": {
-    "solid-js": "^1.9.1"
+    "solid-js": "^1.9.2"
   },
   "devDependencies": {
-    "@types/node": "^22.7.4",
+    "@types/node": "^22.7.5",
     "@yarnpkg/sdks": "^3.2.0",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.12",
