@@ -23,9 +23,13 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ESNext",
-    "types": [
-      "vike-solid/client"
-    ]
-  }
+    "target": "ESNext"
+  },
+  "exclude": [
+    ".github",
+    ".vite",
+    ".vscode",
+    ".yarn",
+    "node_modules"
+  ]
 }
