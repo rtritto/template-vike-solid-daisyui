@@ -26,7 +26,7 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3",
-    "typescript-eslint": "^8.10.0",
+    "typescript-eslint": "^8.11.0",
     "vike": "^0.4.199",
     "vike-solid": "^0.7.6",
     "vite": "^5.4.9"
