@@ -8,7 +8,10 @@
   "files.eol": "\n",
   "git.mergeEditor": false,
   "search.exclude": {
+    "**/.github": true,
     "**/.pnp.*": true,
+    "**/.vite": true,
+    "**/.vscode": true,
     "**/.yarn": true
   },
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
