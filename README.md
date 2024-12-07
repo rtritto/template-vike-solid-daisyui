@@ -1,3 +1,6 @@
+# ARCHIVED
+Use [templates-ecosystem/template-vike-solid-daisyui](https://github.com/templates-ecosystem/template-vike-solid-daisyui) instead.
+
 # template-vike-solid-daisyui
 
 ### 📚 Template stack
